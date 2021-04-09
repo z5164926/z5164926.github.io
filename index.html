@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
     <title>Document</title>
 </head>
 <style>
@@ -12,26 +13,87 @@
     table-layout: fixed;
     width: 250px;
     }
-  </style>
+
+    body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://www.jeopardy.com/sites/default/files/social_meta/jeopardy_logo.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+    }
+</style>
+
 <body>
-    <a href="https://www.dropbox.com/s/pqoiv9vjnu7k7ii/confession_real.txt?dl=0" download="newname" target="_blank" class="et_pb_button" style="color: #dd9933;" >Download Link</a>
+  <div class="bg-image"></div>
+  <a href="https://www.dropbox.com/s/pqoiv9vjnu7k7ii/confession_real.txt?dl=0" download="newname" target="_blank" class="et_pb_button" style="color: #dd9933;" >Download Link</a>
     <a href="https://www.dropbox.com/s/fqzazuy103e6owz/Links.html?dl=0" download="newname" target="_blank" class="et_pb_button" style="color: #dd9933;" >Download Link</a>
+
+  <div class="bg-text">
     <table style="width:100%">
         <tr>
-          <th>Firstname</th>
-          <th>Lastname</th>
-          <th>Age</th>
+          <th><p style="font-family: lato; color: green;">Buffer Overflow</p></th>
+          <th><p style="font-family: lato; color: red;">Format Strings</p></th>
+          <th><p style="font-family: lato; color:blue;">Stack Overflow</p></th>
         </tr>
         <tr>
-          <td>Jill</td>
-          <td>Smith</td>
-          <td>50</td>
+          <th><a href="https://www.dropbox.com/s/pqoiv9vjnu7k7ii/confession_real.txt?dl=0" download="newname" target="_blank" class="et_pb_button" style="color: #dd9933;" >100</a></th>
+          <th>100</th>
+          <th>100</th>
         </tr>
         <tr>
-          <td>Eve</td>
-          <td>Jackson</td>
-          <td>94</td>
+          <th>200</th>
+          <th>200</th>
+          <th>200</th>
         </tr>
+        <tr>
+          <th>300</th>
+          <th>300</th>
+          <th>300</th>
+        </tr>
+        <tr>
+          <th>400</th>
+          <th>400</th>
+          <th>400</th>
+        </tr>
+
       </table>
+    </div>
+
 </body>
+
 </html>
