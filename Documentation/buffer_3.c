@@ -6,6 +6,6 @@
 int main(int argc, char **argv)
 {
   char buffer[64];
-
+  printf("Challenge 3: No hints this time :) What will you do?\n");
   gets(buffer);
 }
