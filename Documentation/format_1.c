@@ -18,6 +18,8 @@ void func(int key)
 
 int main(int argc, char **argv)
 {
+  printf("Welcome to the first challenge for Format Strings!\n");
+  printf("If you need any help for the exercise, try looking at the lecture video!\n");
   func(0xdeadbeef);
   return 0;
 }

@@ -21,5 +21,6 @@ void func()
 
 int main(int argc, char **argv)
 {
+  printf("Challenge 3: This exercise shows how specific values are written in memory\n");
   func();
 }

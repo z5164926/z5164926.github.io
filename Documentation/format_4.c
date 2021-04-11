@@ -27,5 +27,6 @@ void func()
 
 int main(int argc, char **argv)
 {
+  printf("Challenge 4: The hardest one! This level shows how to write more than 1 bytes of memory to the process\n");
   func();
 }

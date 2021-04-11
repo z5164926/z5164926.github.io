@@ -16,5 +16,6 @@ void func(char *string)
 
 int main(int argc, char **argv)
 {
+  printf("Challenge 2: Showing you how format strings can modify arbitrary memory locations\n");
   func(argv[1]);
 }
