@@ -11,6 +11,7 @@ void flag_func()
 int main(int argc, char **argv)
 {
   char buffer[64];
-
+  printf("Challenge 1: Introductory Buffer Overflow.\n");
+  printf("Please overflow this buffer:");
   gets(buffer);
 }
