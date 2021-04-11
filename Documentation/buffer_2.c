@@ -5,6 +5,8 @@
 
 int main(int argc, char **argv)
 {
+  printf("Welcome to the second challenge!\n");
+  printf("This time, you'll need to exploit the environment variable to discover the flag!\n");
   volatile int target;
   char buffer[64];
   char *envvariable;
