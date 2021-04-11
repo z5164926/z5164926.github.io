@@ -7,7 +7,8 @@ char *getpath()
 {
   char buffer[64];
   unsigned int return_add;
-
+  printf("Challenge 4: This exercises focuses on what happens when you have restrictions on a return address\n");
+  printf("Look carefully at duplicate payloads\n");
   printf("input path please: "); fflush(stdout);
 
   gets(buffer);
