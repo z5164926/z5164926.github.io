@@ -11,6 +11,6 @@ void flag_func()
 int main(int argc, char **argv)
 {
   char buffer[64];
-
+  printf("Challenge 3: This exercises looks into overwriting saved EIP\n");
   gets(buffer);
 }
